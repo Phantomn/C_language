@@ -1,0 +1,4 @@
+no	name	mid	last	att	task	total	grade
+1	A	40	40	10	10	100	A+
+2	B	35	35	8	8	86	B+
+3	C	30	30	6	6	72	C
