@@ -7,7 +7,7 @@ int main(){
 
 	scanf("%lf %lf",&kg,&m);
 
-	bmi = kg/pow((m/100),2);
+	bmi = kg/pow((m/100),2);		// 무게를 키의 제곱으로 나눔
 
 	if(bmi<20)
 		printf("low weight\n");

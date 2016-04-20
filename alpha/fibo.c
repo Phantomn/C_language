@@ -15,7 +15,7 @@ int main(){
 	scanf("%d",&n);
 	printf("1 ~ %d사이의 피보나치 수열은\n",n);
 
-	for(i=1;i<=n+1;i++){
+	for(i=1;i<=n+1;i++){						// 반복으로 출력
 		printf("%d ",fibo(i));
 	}
 	printf("\n");

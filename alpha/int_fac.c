@@ -8,7 +8,7 @@ int main(){
 	int two = 0, thr = 0, five = 0, sev = 0;
 	scanf("%d",&num);
 
-	while(num!=1){
+	while(num!=1){					// 값을 나누고 카운트 저장
 		if(num%2==0){
 			prime[0]+=1;
 			num/=2;
@@ -31,7 +31,7 @@ int main(){
 		else
 			break;
 	}
-	for(i=0;i<4;i++){
+	for(i=0;i<4;i++){					//카운트 출력, 1일 경우는 숫자만 출력
 		if(i==0){
 			//printf("2 : %d\n",prime[i]);
 			if(prime[i]>=2)
@@ -65,7 +65,7 @@ int main(){
 	}
 	if(num!=1)
 		printf(" x ");
-	while(num!=1){
+	while(num!=1){					//소수는 그대로 출력
 		if(num%11==0){
 			printf("%d",11);
 			num/=11;
