@@ -1,11 +1,10 @@
 CC = gcc
 
-ListMain_exe : ArrayList.o ListMain.o
-	gcc -o ListMain_exe ArrayList.o ListMain.o
+ArrayList_exe : ArrayList.o all_ArrayList.o
+	gcc -o ArrayList_exe ArrayList.o all_ArrayList.o
 ArrayList : ArrayList.c
 	gcc -c -o ArrayList.o ArrayList.c
-ListMain : ListMain.c
-	gcc -c -o ListMain.o ListMain.c
-
+all_ArrayList : all_ArrayList.c
+	gcc -c -o all_ArrayList.o all_ArrayList.c
 clean :
-	rm *.o ListMain_exe
+	rm *.o ArrayList_exe
