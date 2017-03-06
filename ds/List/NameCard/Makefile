@@ -13,4 +13,4 @@ NameCard.o : NameCard.c NameCard.h ArrayList.h
 	gcc -c NameCard.c
 
 clean :
-	rm *.o NameCard_exe
+	rm *.o 

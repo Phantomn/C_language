@@ -6,8 +6,7 @@
 
 // 구조체 변수의 동적 할 당 및 초기화 후 주소 값 반환
 NameCard* MakeNameCard(char* name, char* phone){
-	NameCard* pcard;
-	pcard = (NameCard*)malloc(sizeof(NameCard));
+	NameCard* pcard = (NameCard*)malloc(sizeof(NameCard));
 	strcpy(pcard->name, name);
 	strcpy(pcard->phone,phone);
 
