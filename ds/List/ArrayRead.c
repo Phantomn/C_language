@@ -8,7 +8,7 @@ int main(){
 
 	while(1){
 		printf("Input Number : ");
-		scanf("%d",&readData);
+		scanf("%d", &readData);
 		if(readData < 1)
 			break;
 
@@ -17,7 +17,7 @@ int main(){
 
 	for(i=0;i<readCount;i++)
 		printf("%d ", arr[i]);
-
 	printf("\n");
+
 	return 0;
 }
